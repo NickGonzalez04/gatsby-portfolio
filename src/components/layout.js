@@ -39,7 +39,7 @@ const Layout = ({ children }) => {
           <a href="https://www.gatsbyjs.org"
             style={{
               textDecoration: `none`,
-              fontSize: `1.5rem`,
+              fontSize: `1rem`,
               fontFamily: `sans-serif`,
               fontWeight: `bold`,
               margin: `1rem`,
@@ -47,7 +47,7 @@ const Layout = ({ children }) => {
             }}
           >
             © {new Date().getFullYear()}
-            {` `} Gatsby ☕️ and a ⌨️ </a>
+            {` `} - Made with Gatsby ☕️ and a ⌨️ </a>
         </footer>
       </div>
     </>

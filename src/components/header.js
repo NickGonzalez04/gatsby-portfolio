@@ -8,7 +8,7 @@ const Header = ({ siteTitle }) => (
   <header
     style={{
       background: `#15202b`,
-      marginBottom: `1.45rem`,
+      marginBottom: `1rem`,
     }}
   >
   {/* <Image  /> */}
@@ -19,10 +19,10 @@ const Header = ({ siteTitle }) => (
         display: `flex`,
         alignItems: `center`,
         justifyContent: `flex-end`,
-        padding: `1.45rem 1.0875rem`,
+        padding: `1.25rem`,
       }}
     >
-      <h3 style={{ margin: 8, borderBottom: `2px solid #38444d` }}>
+      <h3 style={{ margin: 8 }}>
         <Link
           to="/"
           style={{
@@ -33,9 +33,9 @@ const Header = ({ siteTitle }) => (
          🏠 Home
         </Link>
         </h3>
-        <h3 style={{ margin: 8, borderBottom: `2px solid #38444d` }}>
+        <h3 style={{ margin: 8}}>
         <Link
-          to="/projects"
+          to="/project/"
           style={{
             color: `white`,
             textDecoration: `none`,
@@ -44,7 +44,7 @@ const Header = ({ siteTitle }) => (
          💻 Projects
         </Link>
         </h3>
-        <h3 style={{ margin: 8, borderBottom: `2px solid #38444d`}}>
+        <h3 style={{ margin: 8}}>
           <Link
             to="/contact"
             style={{
