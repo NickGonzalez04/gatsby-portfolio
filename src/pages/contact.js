@@ -14,7 +14,7 @@ const SecondPage = () => (
       <input placeholder={`Subject`}/>
       <textarea/>
     </form>
-    <Link to="/">Go back to the homepage</Link>
+    <Link to="/">🏠 Home</Link>
   </Layout>
 )
 

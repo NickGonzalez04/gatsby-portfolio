@@ -28,7 +28,7 @@ const Projects = () =>{
           <h3>Project 3</h3>
         </div>
       </div>
-      <Link to="/">Home</Link>
+      <Link to="/">🏠 Home</Link>
     </div>
   )
 } 
